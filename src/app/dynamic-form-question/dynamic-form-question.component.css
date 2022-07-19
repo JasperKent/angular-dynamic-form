@@ -1,0 +1,16 @@
+.errorMessage {
+    color: red;
+    margin-left: 0.5em;
+}
+
+input, select {
+    margin-bottom: 0.7em;
+}
+
+input.ng-invalid.ng-touched{
+    border-left: 4px solid red;
+}
+
+input.ng-valid{
+    border-left: 4px solid green;
+}
